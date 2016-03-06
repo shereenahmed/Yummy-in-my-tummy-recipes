@@ -1,0 +1,76 @@
+
+body {
+  background-image: url("https://handmadebybutton.files.wordpress.com/2011/10/screen-shot-2011-10-09-at-11-22-49.png");
+  background-size: 100%;
+}
+
+.header {
+  display: inline-block;
+  background-color: #cce0ff;
+  width: 90%;
+  border: 1px;
+  border-radius: 6%;
+  margin-left: 40px;
+  margin-top: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  opacity: 0.8;
+}
+
+.header > img{
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-left: 15px;
+}
+
+/*This is just something i tried and might use but not sure.*/
+@-webkit-keyframes mymove {
+    from {background-color: pink;}
+    to {background-color: purple;}
+}
+
+
+.header > h3{
+  font-size: 25px;
+  font-family: Helvetica;
+  font-variant:small-caps;
+  color: #003cb3;
+  float: right;
+  margin-right: 15px;
+
+
+}
+
+.pie{
+  width: 30%;
+  background-color: #ffe6e6;
+  box-shadow: 3px 3px 3px #999;
+  margin-bottom: 25px;
+  margin-left: 50px;
+  padding-left: 10px;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.pie > a > img{
+	width: 80%;
+	position: center;
+	padding-left: 34px;
+}
+
+.img-describtion{
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 20px;
+	color: #804000;	
+
+}
+
+#info{
+  text-align: center;
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: Arial;
+  color: #cc6600;
+}
