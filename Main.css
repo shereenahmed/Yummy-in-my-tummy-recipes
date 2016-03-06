@@ -1,0 +1,42 @@
+ nav {
+     list-style-type: none;
+     paddding: 0;
+     margin: 0;
+     background-color: grey;
+     overflow: hidden;
+     font-size: 20px;
+     border-right: 1px solid #bbb;
+ }
+
+ nav a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 16px 16px 16px 16px;
+     text-decoration:none;
+ }
+
+ a {
+     float: left;
+     background-color: #4CAF50 ;
+ }
+
+ html {
+     overflow: scroll;
+     width: 100%;
+     height: 100%;
+     background-image: url("//C:\Users\Benjamin\Desktop\leather_1.png");
+ }
+
+ .first-img {
+     background-image: url("//cdn.jamieoliver.com/recipe-database/oldImages/430_575/10_1_1438271360.jpg");
+ }
+
+
+
+
+
+
+
+
+
